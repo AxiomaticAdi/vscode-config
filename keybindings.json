@@ -225,7 +225,7 @@
 	},
 
 	/**
-	 * amVim Finder Fix
+	 * Next / Previous Occurrence: Find
 	 **/
 	{
 		"key": "enter",
