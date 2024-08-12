@@ -22,8 +22,7 @@
 	"files.trimTrailingWhitespace": true,
 
 	// Git Settings
-	"git.autofetch": true,
-	"git.confirmSync": false,
+	"git.confirmSync": true,
 	"git.openRepositoryInParentFolders": "prompt",
 	"git.suggestSmartCommit": false,
 
@@ -139,6 +138,5 @@
 		"weddingphoto",
 		"xero"
 	],
-	"workbench.statusBar.visible": false,
 	"workbench.activityBar.location": "hidden"
 }
