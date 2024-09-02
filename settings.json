@@ -1,145 +1,147 @@
 {
-  // Diff Editor Settings
-  "diffEditor.renderSideBySide": false,
+	// Diff Editor Settings
+	"diffEditor.renderSideBySide": false,
 
-  // Editor Settings
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.definitionLinkOpensInPeek": true,
-  "editor.emptySelectionClipboard": false,
-  "editor.formatOnSave": true,
-  "editor.insertSpaces": false,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.tabSize": 2,
+	// Editor Settings
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.definitionLinkOpensInPeek": true,
+	"editor.emptySelectionClipboard": false,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.snippetSuggestions": "top",
+	"editor.tabSize": 2,
 
-  // File Associations
-  "files.associations": {
-    "*.css": "tailwindcss",
-    ".zsh_aliases": "shellscript"
-  },
-  "files.trimTrailingWhitespace": true,
+	// File Associations
+	"files.associations": {
+		"*.css": "tailwindcss",
+		".zsh_aliases": "shellscript",
+		"*.html": "html"
+	},
+	"files.trimTrailingWhitespace": true,
 
-  // Git Settings
-  "git.confirmSync": true,
-  "git.openRepositoryInParentFolders": "prompt",
-  "git.suggestSmartCommit": false,
+	// Git Settings
+	"git.confirmSync": true,
+	"git.openRepositoryInParentFolders": "prompt",
+	"git.suggestSmartCommit": false,
 
-  // GitHub Pull Requests Settings
-  "githubPullRequests.createOnPublishBranch": "never",
-  "githubPullRequests.pullBranch": "never",
+	// GitHub Pull Requests Settings
+	"githubPullRequests.createOnPublishBranch": "never",
+	"githubPullRequests.pullBranch": "never",
 
-  // Indent Rainbow Settings
-  "indentRainbow.indicatorStyle": "light",
+	// Indent Rainbow Settings
+	"indentRainbow.indicatorStyle": "light",
 
-  // Language Specific Settings
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+	// Language Specific Settings
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnSave": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 
-  // Prettier Settings
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": true,
+	// Prettier Settings
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
 
-  // Prisma Settings
-  "prisma.showPrismaDataPlatformNotification": false,
+	// Prisma Settings
+	"prisma.showPrismaDataPlatformNotification": false,
 
-  // Typescript Settings
-  "typescript.preferences.importModuleSpecifier": "project-relative",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+	// Typescript Settings
+	"typescript.preferences.importModuleSpecifier": "project-relative",
+	"typescript.updateImportsOnFileMove.enabled": "always",
 
-  // Window Settings
-  "window.nativeFullScreen": false,
-  "window.newWindowDimensions": "inherit",
+	// Window Settings
+	"window.nativeFullScreen": false,
+	"window.newWindowDimensions": "inherit",
 
-  // Workbench Settings
-  "workbench.colorTheme": "Default Dark Modern",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": "multiple",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
+	// Workbench Settings
+	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.showTabs": "multiple",
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
 
-  // CSpell Settings
-  "cSpell.userWords": [
-    "Adi",
-    "Adi's",
-    "Aditya",
-    "allauth",
-    "Anakin",
-    "arcanis",
-    "arrayconnection",
-    "autofetch",
-    "chatterfang",
-    "daisyui",
-    "dompurify",
-    "dropoff",
-    "Embla",
-    "esbenp",
-    "firestore",
-    "Formik",
-    "formkit",
-    "goatcounter",
-    "Haldi",
-    "headlessui",
-    "heroicons",
-    "imgs",
-    "manticore",
-    "moxfield",
-    "netsuite",
-    "newtab",
-    "NEXTAUTH",
-    "nums",
-    "offboarding",
-    "openai",
-    "Pelliccia",
-    "pexels",
-    "Pomodoro",
-    "precommit",
-    "predeploy",
-    "prodbuild",
-    "rainsounds",
-    "redwoodjs",
-    "Reforma",
-    "RITP",
-    "Rudra",
-    "runserver",
-    "shakshuka",
-    "Sith",
-    "Skytrain",
-    "squircle",
-    "statsig",
-    "tailwindcss",
-    "Toski",
-    "Trpc",
-    "Ultron",
-    "upsert",
-    "venv",
-    "Vite",
-    "webp",
-    "weddingphoto",
-    "xero"
-  ]
+	// CSpell Settings
+	"cSpell.userWords": [
+		"Adi",
+		"Adi's",
+		"Aditya",
+		"allauth",
+		"Anakin",
+		"arcanis",
+		"arrayconnection",
+		"autofetch",
+		"baseruns",
+		"chatterfang",
+		"daisyui",
+		"dompurify",
+		"dropoff",
+		"Embla",
+		"esbenp",
+		"firestore",
+		"Formik",
+		"formkit",
+		"goatcounter",
+		"Haldi",
+		"headlessui",
+		"heroicons",
+		"imgs",
+		"manticore",
+		"moxfield",
+		"netsuite",
+		"newtab",
+		"NEXTAUTH",
+		"nums",
+		"offboarding",
+		"openai",
+		"Pelliccia",
+		"pexels",
+		"Pomodoro",
+		"precommit",
+		"predeploy",
+		"prodbuild",
+		"rainsounds",
+		"redwoodjs",
+		"Reforma",
+		"RITP",
+		"Rudra",
+		"runserver",
+		"shakshuka",
+		"Sith",
+		"Skytrain",
+		"squircle",
+		"statsig",
+		"tailwindcss",
+		"Toski",
+		"Trpc",
+		"Ultron",
+		"upsert",
+		"venv",
+		"Vite",
+		"webp",
+		"weddingphoto",
+		"xero"
+	]
 }
