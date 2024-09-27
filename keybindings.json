@@ -228,13 +228,24 @@
 	 * Next / Previous Occurrence: Find
 	 **/
 	{
-		"key": "enter",
+		"key": "down",
 		"command": "editor.action.nextMatchFindAction",
 		"when": "findWidgetVisible"
 	},
 	{
-		"key": "shift+enter",
+		"key": "up",
 		"command": "editor.action.previousMatchFindAction",
+		"when": "findWidgetVisible"
+	},
+	// Disable "enter" key to go to next match in Find. Instead, make enter close the find widget so you can edit directly
+	{
+		"key": "enter",
+		"command": "-editor.action.nextMatchFindAction",
+		"when": "findWidgetVisible"
+	},
+	{
+		"key": "enter",
+		"command": "closeFindWidget",
 		"when": "findWidgetVisible"
 	},
 
