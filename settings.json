@@ -24,7 +24,7 @@
 
 	// Git Settings
 	"git.confirmSync": true,
-	"git.openRepositoryInParentFolders": "prompt",
+	"git.openRepositoryInParentFolders": "never",
 	"git.suggestSmartCommit": false,
 
 	// GitHub Pull Requests Settings
@@ -95,6 +95,7 @@
 		"autofetch",
 		"baseruns",
 		"chatterfang",
+		"codegen",
 		"commitlint",
 		"daisyui",
 		"dompurify",
@@ -140,11 +141,14 @@
 		"Trpc",
 		"tseslint",
 		"Ultron",
+		"uploadthing",
 		"upsert",
 		"venv",
 		"Vite",
 		"webp",
 		"weddingphoto",
 		"xero"
-	]
+	],
+	"python.condaPath": "/Users/aditya/micromamba/condabin/conda",
+	"workbench.activityBar.location": "hidden"
 }
